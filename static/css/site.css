@@ -61,6 +61,12 @@ body{
 .clearfix{
     zoom:1;/*IE低版本浏览器不支持after伪类所以要加这一句*/
 }
+.w50{
+    width: 50%;
+}
+.w100{
+    width: 100%;
+}
 .fl{
 	float: left;
 }
@@ -87,6 +93,9 @@ body{
 }
 .pt8{
     padding-top: 8px;
+}
+.pt10{
+    padding-top: 10px;
 }
 .pt11{
     padding-top: 11px;

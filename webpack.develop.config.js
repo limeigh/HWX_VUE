@@ -67,7 +67,7 @@ module.exports = {
         contentBase: __dirname + '/src',//指向设置的输出目录//这点一定是我们的发布目录
         hot: true,
         inline:true, // 默认是true
-        port:8088,
+        port:8066,
         host: 'localhost',
         historyApiFallback: true,
         noInfo: false,
@@ -76,7 +76,7 @@ module.exports = {
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),//webpack-dev-server hot插件
-        new OpenBrowserPlugin({url: 'http://localhost:8088/'})
+        new OpenBrowserPlugin({url: 'http://localhost:8066'})
     ]
 
 }
